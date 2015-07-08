@@ -328,6 +328,10 @@ ul{
     text-transform: uppercase;
     opacity: 0.9;
 }
+.offers .image-3 a span.tag:hover{
+    opacity: 0.8;
+    background: #242424;
+}
 .offers .image-3 a span{
     position: absolute;
     top: 60px;
@@ -366,10 +370,9 @@ ul{
 .products-3{
     display: block;
     text-align: center;
-    height: 240px;
+    height: 286px;
     margin-top: 15px;
     margin-left: 139px;
-    margin-bottom: 50px;
     clear: both;
 }
 .grids-3:first-child{
@@ -713,7 +716,7 @@ ul{
     margin-left: 165px;
 }
 .select .selectors h2{
-    padding: 10px 70px 10px 55px;
+    padding: 10px 91px 10px 85px;
     margin-left: 10px;
     float: left;
     color: #FFF;
@@ -722,8 +725,8 @@ ul{
     margin-top: 20px;
 }
 .select .selectors{
-    margin-left: 420px;
-    width: 630px;
+    margin-left: 330px;
+    width: 755px;
 }
 .select .selectors h2 a{
     text-align: center;
