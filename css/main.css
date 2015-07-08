@@ -137,7 +137,7 @@ ul{
     text-transform: uppercase;
     font-size: 0.8125em;
 }
-.log_reg span.log{
+.log_reg li.log{
     font-size: 0.8125em;
     color: #777;
     text-transform: lowercase;
@@ -523,7 +523,6 @@ ul{
     background: #242424;
     height: 330px;
     width: 100%;
-    margin-top: 22px;
 }
 .edit{
     display: block;
@@ -728,7 +727,7 @@ ul{
 }
 .select .selectors h2 a{
     text-align: center;
-    cursor: pointer;
+    color: #FFF;
 }
 /*Einde selectors products*/
 .products_background1{
