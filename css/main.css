@@ -366,7 +366,7 @@ ul{
 .products-3{
     display: block;
     text-align: center;
-    height: 320px;
+    height: 240px;
     margin-top: 15px;
     margin-left: 139px;
     margin-bottom: 50px;
@@ -449,6 +449,7 @@ ul{
     float: left;
     width: 45.7778%;
     margin-left: 11.8%;
+    margin-top: 50px;
 }
 .grids-2 .info{
     float: left;
@@ -478,6 +479,7 @@ ul{
     width: 375px;
     padding-left: 17px;
     padding-bottom: 47px;
+    margin-top: 50px;
 }
 .grid_date{
     margin-top: 4%;
@@ -660,6 +662,80 @@ ul{
     color: #57C5A0;
 }
 /*Einde footer bottom*/
+
+/*Pagina Products*/
+/*Begin slider*/
+.slider_info1{
+    position: absolute;
+    right: 190px;
+    top: 35px;
+    left: 710px;
+    bottom: 200px;
+    height: 180px;
+}
+.slider1{
+    position: relative;
+    clear: both;
+}
+.slider_info1 .price4{
+    padding: 25px 20px 20px 15px;
+    background: #57C5A0;
+    color: #FFF;
+    text-align: center;
+    float: left;
+    margin-top: 7px;
+}
+.slider_info1 h1{
+    font-size: 2.5em;
+    color: #242424;
+    text-transform: capitalize;
+    width: 404px;
+    line-height: 40px;
+    margin: 0px;
+    padding-left: 130px;
+}
+.slider_info1 p{
+    font-size: 1.3em;
+    margin: 0px;
+    margin-top: 10px;
+}
+/*Einde Slider products*/
+/*Begin selectors products*/
+.select-background{
+    background: #2E2E2E;
+    height: 90px;
+    width: 100%;
+}
+.select h2{
+    font-size: 1.6em;
+    color: #FFF;
+    text-transform: capitalize;
+    float: left;
+    margin-left: 165px;
+}
+.select .selectors h2{
+    padding: 10px 70px 10px 55px;
+    margin-left: 10px;
+    float: left;
+    color: #FFF;
+    font-size: 1.2em;
+    background: #242424;
+    margin-top: 20px;
+}
+.select .selectors{
+    margin-left: 420px;
+    width: 630px;
+}
+.select .selectors h2 a{
+    text-align: center;
+    cursor: pointer;
+}
+/*Einde selectors products*/
+.products_background1{
+    background: #EBE7DF;
+    height: 1425px;
+    width: 100%;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
