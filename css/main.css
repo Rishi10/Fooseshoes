@@ -362,6 +362,14 @@ ul{
     margin-top: 30px;
     margin-right: 90px;
 }
+.top_main a:hover{
+    color: #FFF;
+    background: #BCB4A7; 
+}
+.top_main1 a:hover{
+    color: #FFF;
+    background: #BCB4A7; 
+}
 .top_main{
     clear: both;
     height: 70px;
@@ -560,6 +568,11 @@ ul{
 }
 .edit-text li a{
     display: block;
+    width: 75px;
+}
+.edit-text li a:hover{
+    opacity: 0.5;
+    color: #242424;
 }
 /*Einde footer top*/
 /*Begin footer mid*/
@@ -610,17 +623,37 @@ ul{
 .social ul li a.icon1{
     background: url(../img/facebook1.jpg);
 }
+.social ul li a.icon1:hover{
+    color: #3B579D;
+    opacity: 0.5;
+}
 .social ul li a.icon2{
     background: url(../img/twitter1.jpg);
+}
+.social ul li a.icon2:hover{
+    color: #3B579D;
+    opacity: 0.5;
 }
 .social ul li a.icon3{
     background: url(../img/google1.jpg);
 }
+.social ul li a.icon3:hover{
+    color: #3B579D;
+    opacity: 0.5;
+}
 .social ul li a.icon4{
     background: url(../img/in1.jpg);
 }
+.social ul li a.icon4:hover{
+    color: #3B579D;
+    opacity: 0.5;
+}
 .social ul li a.icon5{
     background: url(../img/meer1.png);
+}
+.social ul li a.icon5:hover{
+    color: #3B579D;
+    opacity: 0.5;
 }
 .social ul li a{
     display: block;
