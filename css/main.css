@@ -218,7 +218,7 @@ ul{
     right: 290px;
     top: 35px;
     left: 685px;
-    bottom: 86px;
+    bottom: 200px;
 }
 .slider_info .price{
     padding: 25px 20px 20px 15px;
@@ -243,8 +243,423 @@ ul{
     padding: 15px 13px 15px;
     background: #FFF;
 }
+.slider_nav{
+    max-width: 950px;
+    display: block;
+    height: 10px;
+    position: relative;
+    margin: 0px auto;
+    left: 2%;
+}
+.slider_nav li{
+    width: 19.286%;
+    position: relative;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #2A2929;
+}
+.slider_nav li:nth-child(5){
+    border-right: none;
+}
+.slider_nav li a{
+    text-align: center;
+    display: block;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0px 1px 1px 0px #272626;
+}
+.slider_nav li a span{
+    padding-top: 30px;
+    color: #999;
+    text-transform: capitalize;
+    display: inline-block;
+    font-size: 1.2em;
+}
+.slider_nav li a span.active{
+    color: #FFF;
+}
+.slider_nav li a p{
+    text-transform: capitalize;
+    font-size: 0.8125em;
+    color: #999;
+    line-height: 0.1em;
+}
+.slider_nav_background{
+    background: #2E2E2E;
+    height: 120px;
+    width: 100%; 
+}
+.slider_nav_element{
+    position: absolute;
+}
+.slider_nav .slider_element{
+    background: #57C5A0;
+    height: 6px;
+    width: 180px;
+    position: absolute;
+    z-index: 10;
+    text-indent: -9000px;
+    left: 2px;
+    margin-top: 2px;
+}
 /*Einde slider*/
-
+/*Begin offers*/
+.offers_background{
+    background: #242424;
+    width: 100%;
+    height: 240px;
+}
+.offers .image-3{
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    left: 120px;
+    margin-left: 20px;
+}
+.offers .image-3 a span.tag{
+    padding: 15px 30px;
+    background: #242424;
+    color: #FFF;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+.offers .image-3 a span{
+    position: absolute;
+    top: 60px;
+    right: 48px;
+    left: 35px;
+}
+/*Einde offers*/
+/*Begin products*/
+.products_background{
+    background: #EBE7DF;
+    height: 1090px;
+    width: 100%;
+}
+.top_main h2{
+    float: left;
+    text-transform: capitalize;
+    color: #242424;
+    font-size: 1.5em;
+    margin-left: 140px;
+}
+.top_main a{
+    font-size: 1em;
+    float: right;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    color: #BCB4A7;
+    border: 1px solid #BCB4A7;
+    margin-top: 30px;
+    margin-right: 90px;
+}
+.top_main{
+    clear: both;
+    height: 70px;
+    width: 100%;
+}
+.products-3{
+    display: block;
+    text-align: center;
+    height: 320px;
+    margin-top: 15px;
+    margin-left: 139px;
+    margin-bottom: 50px;
+    clear: both;
+}
+.grids-3:first-child{
+    margin-left: 0px;
+}
+.grids-3{
+    float: left;
+    width: 29.1%;
+    background: #FFF;
+    position: relative;
+    margin-left: 20px;
+}
+.grids-3 a{
+    display: block;
+}
+.grids-3 h3{
+    border-top: 1px solid #EBEBEB;
+    font-size: 1.2em;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 70px;
+}
+.price1{
+    background: #57C5A0;
+    color: #FFF;
+    font-size: 0.8725em;
+    padding: 25px 12px;
+    position: absolute;
+    top: 216px;
+    left: 15px;
+}
+.price2{
+    font-size: 0.8725em;
+    color: #FFF;
+    padding: 25px 10px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    text-transform: uppercase;
+    background: #242424;
+}
+.top_main1 h2{
+    float: left;
+    text-transform: capitalize;
+    color: #242424;
+    font-size: 1.5em;
+}
+.top_main1 a{
+    font-size: 1em;
+    float: right;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    color: #BCB4A7;
+    border: 1px solid #BCB4A7;
+    margin-top: 20px;
+}
+.top_main1{
+    clear: both;
+    height: 70px;
+    width: 945px;
+}
+.price3{
+    font-size: 0.8725em;
+    color: #FFF;
+    padding: 25px 10px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    text-transform: uppercase;
+    background: #F27E4B;
+    width: 60px;
+}
+/*Einde products*/
+/*Begin main info*/
+.grids-2{
+    float: left;
+    width: 45.7778%;
+    margin-left: 11.8%;
+}
+.grids-2 .info{
+    float: left;
+    width: 38.7778%;
+    margin-left: 6.3333%;
+    background: #DFDBD4;
+    padding: 5px 15px 0px 20px;
+}
+.grids-2 .info:first-child{
+    margin-left: 0px;
+}
+.grids-2 h2{
+    font-size: 1.2em;
+    color: #141414;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+.grids-2 .info p{
+    font-size: 0.8725em;
+    line-height: 1.5em;
+    color: #141414;
+}
+.blog{
+    background: #DFDBD4;
+    float: right;
+    margin-right: 90px;
+    width: 375px;
+    padding-left: 17px;
+    padding-bottom: 47px;
+}
+.grid_date{
+    margin-top: 4%;
+}
+.date1{
+    float: left;
+    width: 12.3333%;
+}
+.date1 h4{
+    font-size: 0.8925em;
+    margin-top: 4px;
+    background: #57C5A0;
+    padding: 3px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+.blog h2{
+    font-size: 1.2em;
+    color: #141414;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+.date-text{
+    float: left;
+    width: 84.3333%;
+    margin-left: 3.3333%;
+}
+.date-text p{
+    font-size: 0.8725em;
+    line-height: 1.5em;
+    color: #141414;
+    margin: 0px;
+}
+.date-text h4{
+    margin: 0px;
+}
+/*Einde main info*/
+/*Begin footer top*/
+.footer_top{
+    background: #242424;
+    height: 330px;
+    width: 100%;
+    margin-top: 22px;
+}
+.edit{
+    display: block;
+}
+.edit-text{
+    float: left;
+    width: 26%;
+    margin-left: 7.333%;
+    margin-top: 50px;
+}
+.edit-text h3{
+    font-size: 1.2em;
+    color: #5E5E5E;
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+.edit-text p{
+    font-size: 0.8725em;
+    color: #9B9B9B;
+    line-height: 1.8em;
+}
+.edit-text p a{
+    color: #57C5A0;
+}
+.edit-text p.top{
+    margin-top: 2%;
+}
+.edit-text li{
+    float: left;
+    width: 23.333%;
+    margin: 0px 14px 10px 0px;
+}
+.edit-text li a{
+    display: block;
+}
+/*Einde footer top*/
+/*Begin footer mid*/
+.footer-mid{
+    border-top: 1px solid #141414;
+    background: #242424;
+    width: 100%;
+    height: 145px;
+}
+.submit{
+    float: left;
+    position: relative;
+    width: 24.3333%;
+    margin-top: 50px;
+    margin-left: 87px;
+}
+.submit input[type="text"]{
+    font-style: italic;
+    font-size: 0.8725em;
+    line-height: 24px;
+    width: 77.3333%;
+    padding: 10px;
+    background: #2E2E2E;
+    color: #9B9B9B;
+    border: medium none;
+    outline: medium none: 
+} 
+.submit form input[type="submit"]{
+    cursor: pointer;
+    line-height: 24px;
+    position: absolute;
+    right: 0px;
+    background: url(../img/search_logo.jpg) #2A2A2A 15px 15px;
+    padding: 10px;
+    width: 16.3333%;
+    border: medium none;
+    outline: medium none;
+    background-repeat: no-repeat; 
+}
+.social{
+    float: right;
+    margin-right: 5%;
+}
+.social ul li{
+    float: left;
+    margin-left: 10px;
+}
+.social ul li a.icon1{
+    background: url(../img/facebook1.jpg);
+}
+.social ul li a.icon2{
+    background: url(../img/twitter1.jpg);
+}
+.social ul li a.icon3{
+    background: url(../img/google1.jpg);
+}
+.social ul li a.icon4{
+    background: url(../img/in1.jpg);
+}
+.social ul li a.icon5{
+    background: url(../img/meer1.png);
+}
+.social ul li a{
+    display: block;
+    width: 37px;
+    height: 37px;
+    margin-top: 50px;
+}
+/*Einde footer mid*/
+/*Begin footer bottom*/
+.footer-bottom{
+    background: #2E2E2E;
+    height: 70px;
+    width: 100%;
+}
+.copy{
+    float: left;
+}
+.copy p{
+    color: #7D7D7D;
+    font-size: 0.8725em;
+    line-height: 0.1;
+    margin-top: 20px;
+    margin-left: 85px;
+}
+.f-nav{
+    float: right;
+    margin-right: 60px;
+    margin-top: 25px;
+}
+.f-nav li{
+    float: left;
+    margin-left: 10px;
+}
+.f-nav li a{
+    display: block;
+    color: #7D7D7D;
+    text-transform: capitalize;
+    font-size: 0.8725em;
+}
+.f-nav li a:hover{
+    color: #57C5A0;
+}
+/*Einde footer bottom*/
 /* ==========================================================================
    Helper classes
    ========================================================================== */
